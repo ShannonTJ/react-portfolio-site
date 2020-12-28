@@ -34,7 +34,7 @@ export const NavLinksWrapper = styled.div`
   height: 60%;
 `;
 
-export const NavLink2 = styled(NavLink)`
+export const StyledNavLink = styled(NavLink)`
   color: #fff;
   display: flex;
   align-items: center;
