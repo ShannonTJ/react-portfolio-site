@@ -1,5 +1,11 @@
 import React from "react";
-import { Nav, NavTextWrapper, NavText } from "./NavbarElements";
+import {
+  Nav,
+  NavTextWrapper,
+  NavText,
+  NavLinksWrapper,
+  NavLink,
+} from "./NavbarElements";
 
 const Navbar = () => {
   return (
@@ -7,6 +13,11 @@ const Navbar = () => {
       <NavTextWrapper>
         <NavText>Hello, I'm Shannon</NavText>
       </NavTextWrapper>
+      <NavLinksWrapper>
+        <NavLink>Code</NavLink>
+        <NavLink>About</NavLink>
+        <NavLink>Contact</NavLink>
+      </NavLinksWrapper>
     </Nav>
   );
 };
