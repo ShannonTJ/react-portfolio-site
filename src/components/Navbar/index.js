@@ -1,15 +1,12 @@
 import React from "react";
-import { Nav } from "./NavbarElements";
+import { Nav, NavTextWrapper, NavText } from "./NavbarElements";
 
 const Navbar = () => {
   return (
     <Nav>
-      {/* <NavbarContainer>
-        <NavTextWrapper>
-          <LeftText></LeftText>
-          <RightText></RightText>
-        </NavTextWrapper>
-      </NavbarContainer> */}
+      <NavTextWrapper>
+        <NavText>Hello, I'm Shannon</NavText>
+      </NavTextWrapper>
     </Nav>
   );
 };
