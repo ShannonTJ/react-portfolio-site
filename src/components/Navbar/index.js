@@ -4,7 +4,7 @@ import {
   NavTextWrapper,
   NavText,
   NavLinksWrapper,
-  NavLink,
+  NavLink2,
 } from "./NavbarElements";
 
 const Navbar = () => {
@@ -14,9 +14,15 @@ const Navbar = () => {
         <NavText>Hello, I'm Shannon</NavText>
       </NavTextWrapper>
       <NavLinksWrapper>
-        <NavLink>Code</NavLink>
-        <NavLink>About</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink2 exact to="code" activeClassName="active">
+          Code
+        </NavLink2>
+        <NavLink2 exact to="about" activeClassName="active">
+          About
+        </NavLink2>
+        <NavLink2 exact to="contact" activeClassName="active">
+          Contact
+        </NavLink2>
       </NavLinksWrapper>
     </Nav>
   );
