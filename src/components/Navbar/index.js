@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavText>Hello, I'm Shannon</NavText>
       </NavTextWrapper>
       <NavLinksWrapper>
-        <StyledNavLink exact to="code" activeClassName="active">
+        <StyledNavLink exact to="/" activeClassName="active">
           Code
         </StyledNavLink>
         <StyledNavLink exact to="about" activeClassName="active">
