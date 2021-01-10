@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 export const FooterContainer = styled.footer`
-  background: #000;
+  background: transparent;
   bottom: 0;
   padding: 10px 0;
   width: 100%;
@@ -35,9 +35,9 @@ export const FooterTextWrapper = styled.div`
 `;
 
 export const FooterText = styled.small`
-  color: #fff;
+  color: #5d6d7e;
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
   padding: 0 0 0 30px;
 
@@ -60,7 +60,7 @@ export const FooterIconWrapper = styled.div`
 `;
 
 export const FooterIcon = styled.a`
-  color: #fff;
+  color: #5d6d7e;
   font-size: 1.5rem;
   font-weight: 100;
   padding: 0 30px 0 0;
