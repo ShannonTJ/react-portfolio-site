@@ -90,6 +90,6 @@ export const LinksContainer = styled.div`
 `;
 
 export const Link = styled.a`
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 `;

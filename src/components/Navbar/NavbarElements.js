@@ -14,6 +14,7 @@ export const NavTextWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 50%;
+  width: 100%;
 `;
 
 export const NavText = styled.h1`
@@ -21,9 +22,11 @@ export const NavText = styled.h1`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 15px 0 0 0;
   text-transform: uppercase;
   font-weight: 400;
+  width: 100%;
 `;
 
 export const NavLinksWrapper = styled.div`
