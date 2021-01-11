@@ -8,12 +8,7 @@ export const CardContainer = styled.div`
   margin-top: 8rem;
   margin-bottom: 2rem;
 
-  @media screen and (max-width: 1035px) {
-    margin-top: 6rem;
-  }
-
   @media screen and (max-width: 480px) {
-    margin-top: 6rem;
     margin-bottom: 4rem;
   }
 `;
@@ -56,18 +51,45 @@ export const ContentContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div``;
-export const Image = styled.img``;
+
+export const Image = styled.img`
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+`;
+
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
-export const HeaderText = styled.h1``;
-export const Text = styled.p``;
+export const HeaderText = styled.h1`
+  color: #5d6d7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 0;
+`;
+
+export const Text = styled.p`
+  color: #5d6d7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+`;
+
 export const LinksContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 `;
-export const Link = styled.a``;
+
+export const Link = styled.a`
+  text-decoration: none;
+  cursor: pointer;
+`;

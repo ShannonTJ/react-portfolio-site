@@ -18,7 +18,7 @@ const Card = () => {
       <CardGroupWrapper>
         <ContentContainer>
           <ImageContainer>
-            <Image />
+            <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
             <HeaderText>Project Title</HeaderText>
@@ -31,7 +31,7 @@ const Card = () => {
         </ContentContainer>
         <ContentContainer>
           <ImageContainer>
-            <Image />
+            <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
             <HeaderText>Project Title</HeaderText>
@@ -44,7 +44,7 @@ const Card = () => {
         </ContentContainer>
         <ContentContainer>
           <ImageContainer>
-            <Image />
+            <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
             <HeaderText>Project Title</HeaderText>
@@ -57,7 +57,7 @@ const Card = () => {
         </ContentContainer>
         <ContentContainer>
           <ImageContainer>
-            <Image />
+            <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
             <HeaderText>Project Title</HeaderText>
@@ -70,7 +70,7 @@ const Card = () => {
         </ContentContainer>
         <ContentContainer>
           <ImageContainer>
-            <Image />
+            <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
             <HeaderText>Project Title</HeaderText>
@@ -83,7 +83,7 @@ const Card = () => {
         </ContentContainer>
         <ContentContainer>
           <ImageContainer>
-            <Image />
+            <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
             <HeaderText>Project Title</HeaderText>
