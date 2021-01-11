@@ -5,8 +5,17 @@ export const CardContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: 1035px) {
+    margin-top: 6rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
 `;
 
 export const CardGroupWrapper = styled.div`
@@ -24,7 +33,6 @@ export const CardGroupWrapper = styled.div`
 
   @media screen and (max-width: 1035px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
   }
 `;
 

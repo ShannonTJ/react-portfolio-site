@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   top: 0;
   height: 120px;
   width: 100%;
-  position: sticky;
+  position: absolute;
 `;
 
 export const NavTextWrapper = styled.div`
