@@ -50,12 +50,18 @@ export const ContentContainer = styled.div`
   }
 `;
 
-export const ImageContainer = styled.div``;
+export const ImageContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 export const Image = styled.img`
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
+  cursor: pointer;
 `;
 
 export const TextContainer = styled.div`
@@ -63,12 +69,14 @@ export const TextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 300px;
 `;
 export const HeaderText = styled.h1`
   color: #5d6d7e;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 400;
@@ -80,6 +88,7 @@ export const Text = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-weight: 400;
 `;
 
@@ -87,9 +96,15 @@ export const LinksContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  width: 200px;
 `;
 
 export const Link = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-decoration: underline;
   cursor: pointer;
+  color: #5484aa;
 `;

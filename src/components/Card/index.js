@@ -21,7 +21,7 @@ const Card = () => {
             <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
-            <HeaderText>Project Title</HeaderText>
+            <HeaderText>Responsive React Site</HeaderText>
             <Text>This is sample text.</Text>
           </TextContainer>
           <LinksContainer>
@@ -34,7 +34,7 @@ const Card = () => {
             <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
-            <HeaderText>Project Title</HeaderText>
+            <HeaderText>Responsive React Site</HeaderText>
             <Text>This is sample text.</Text>
           </TextContainer>
           <LinksContainer>
@@ -47,7 +47,7 @@ const Card = () => {
             <Image src={"images/svg-5.svg"} />
           </ImageContainer>
           <TextContainer>
-            <HeaderText>Project Title</HeaderText>
+            <HeaderText>Responsive React Site</HeaderText>
             <Text>This is sample text.</Text>
           </TextContainer>
           <LinksContainer>
