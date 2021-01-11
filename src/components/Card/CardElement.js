@@ -5,12 +5,32 @@ export const CardContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+`;
+
+export const CardGroupWrapper = styled.div`
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 20px;
+  padding: 0 10px;
+
+  @media screen and (max-width: 1480px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 1035px) {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
 `;
 
 export const ContentContainer = styled.div`
   background: #fff;
-  width: 500px;
+  width: 350px;
   max-height: 400px;
   border-radius: 10px;
   display: flex;

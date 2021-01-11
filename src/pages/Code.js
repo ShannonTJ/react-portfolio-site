@@ -3,9 +3,9 @@ import Card from "../components/Card";
 
 const Code = () => {
   return (
-    <div>
+    <>
       <Card />
-    </div>
+    </>
   );
 };
 
