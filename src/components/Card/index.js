@@ -1,4 +1,5 @@
 import React from "react";
+import { cardData } from "./cardData";
 import {
   CardContainer,
   CardGroupWrapper,
@@ -16,84 +17,21 @@ const Card = () => {
   return (
     <CardContainer>
       <CardGroupWrapper>
-        <ContentContainer>
-          <ImageContainer>
-            <Image src={"images/svg-5.svg"} />
-          </ImageContainer>
-          <TextContainer>
-            <HeaderText>Responsive React Site</HeaderText>
-            <Text>This is sample text.</Text>
-          </TextContainer>
-          <LinksContainer>
-            <Link>Webpage</Link>
-            <Link>Github Repo</Link>
-          </LinksContainer>
-        </ContentContainer>
-        <ContentContainer>
-          <ImageContainer>
-            <Image src={"images/svg-5.svg"} />
-          </ImageContainer>
-          <TextContainer>
-            <HeaderText>Responsive React Site</HeaderText>
-            <Text>This is sample text.</Text>
-          </TextContainer>
-          <LinksContainer>
-            <Link>Webpage</Link>
-            <Link>Github Repo</Link>
-          </LinksContainer>
-        </ContentContainer>
-        <ContentContainer>
-          <ImageContainer>
-            <Image src={"images/svg-5.svg"} />
-          </ImageContainer>
-          <TextContainer>
-            <HeaderText>Responsive React Site</HeaderText>
-            <Text>This is sample text.</Text>
-          </TextContainer>
-          <LinksContainer>
-            <Link>Webpage</Link>
-            <Link>Github Repo</Link>
-          </LinksContainer>
-        </ContentContainer>
-        <ContentContainer>
-          <ImageContainer>
-            <Image src={"images/svg-5.svg"} />
-          </ImageContainer>
-          <TextContainer>
-            <HeaderText>Project Title</HeaderText>
-            <Text>This is sample text.</Text>
-          </TextContainer>
-          <LinksContainer>
-            <Link>Webpage</Link>
-            <Link>Github Repo</Link>
-          </LinksContainer>
-        </ContentContainer>
-        <ContentContainer>
-          <ImageContainer>
-            <Image src={"images/svg-5.svg"} />
-          </ImageContainer>
-          <TextContainer>
-            <HeaderText>Project Title</HeaderText>
-            <Text>This is sample text.</Text>
-          </TextContainer>
-          <LinksContainer>
-            <Link>Webpage</Link>
-            <Link>Github Repo</Link>
-          </LinksContainer>
-        </ContentContainer>
-        <ContentContainer>
-          <ImageContainer>
-            <Image src={"images/svg-5.svg"} />
-          </ImageContainer>
-          <TextContainer>
-            <HeaderText>Project Title</HeaderText>
-            <Text>This is sample text.</Text>
-          </TextContainer>
-          <LinksContainer>
-            <Link>Webpage</Link>
-            <Link>Github Repo</Link>
-          </LinksContainer>
-        </ContentContainer>
+        {cardData.map((item) => (
+          <ContentContainer>
+            <ImageContainer>
+              <Image src={item.src} />
+            </ImageContainer>
+            <TextContainer>
+              <HeaderText>{item.title}</HeaderText>
+              <Text>{item.description}</Text>
+            </TextContainer>
+            <LinksContainer>
+              <Link href={item.webpage}>Webpage</Link>
+              <Link href={item.github}>Github</Link>
+            </LinksContainer>
+          </ContentContainer>
+        ))}
       </CardGroupWrapper>
     </CardContainer>
   );
