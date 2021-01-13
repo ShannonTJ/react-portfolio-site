@@ -11,10 +11,13 @@ export const Nav = styled.nav`
 
 export const NavTextWrapper = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 50%;
-  width: 100%;
+  width: 250px;
+  margin: auto;
 `;
 
 export const NavText = styled.h1`
@@ -26,35 +29,36 @@ export const NavText = styled.h1`
   padding: 15px 0 0 0;
   text-transform: uppercase;
   font-weight: 400;
-  width: 100%;
 `;
 
 export const NavLinksWrapper = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  text-align: center;
+  width: 300px;
   height: 60%;
+  margin: auto;
 `;
 
 export const StyledNavLink = styled(NavLink)`
   color: #5d6d7e;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 1.5rem;
-  padding: 0 0.2rem;
+  justify-content: space-between;
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 
   &.${(props) => props.activeClassName} {
     border-bottom: 1px solid #5d6d7e;
   }
 
   &:hover {
-    color: red;
+    color: #5484aa;
   }
 `;
