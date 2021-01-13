@@ -18,9 +18,9 @@ const Card = () => {
     <CardContainer>
       <CardGroupWrapper>
         {cardData.map((item) => (
-          <ContentContainer>
+          <ContentContainer key={item.id}>
             <ImageContainer>
-              <Image src={item.src} />
+              <Image src={item.src} alt={item.alt} />
             </ImageContainer>
             <TextContainer>
               <HeaderText>{item.title}</HeaderText>

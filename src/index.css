@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background: linear-gradient(#ebedef, #d6dbdf);
   background-attachment: fixed;
+  overflow: scroll;
 }
 
 code {

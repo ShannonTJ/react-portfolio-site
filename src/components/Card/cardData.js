@@ -2,6 +2,7 @@ export const cardData = [
   {
     id: 1,
     src: "images/svg-5.svg",
+    alt: "project image",
     title: "React Netflix Clone",
     description: "This is sample text.",
     webpage: "",
@@ -10,6 +11,7 @@ export const cardData = [
   {
     id: 2,
     src: "images/svg-5.svg",
+    alt: "project image",
     title: "React Netflix Clone",
     description: "This is sample text.",
     webpage: "",
@@ -18,6 +20,7 @@ export const cardData = [
   {
     id: 3,
     src: "images/svg-5.svg",
+    alt: "project image",
     title: "React Netflix Clone",
     description: "This is sample text.",
     webpage: "",
@@ -26,6 +29,7 @@ export const cardData = [
   {
     id: 4,
     src: "images/svg-5.svg",
+    alt: "project image",
     title: "React Netflix Clone",
     description: "This is sample text.",
     webpage: "",
@@ -34,6 +38,7 @@ export const cardData = [
   {
     id: 5,
     src: "images/svg-5.svg",
+    alt: "project image",
     title: "React Netflix Clone",
     description: "This is sample text.",
     webpage: "",
@@ -42,6 +47,7 @@ export const cardData = [
   {
     id: 6,
     src: "images/svg-5.svg",
+    alt: "project image",
     title: "React Netflix Clone",
     description: "This is sample text.",
     webpage: "",
