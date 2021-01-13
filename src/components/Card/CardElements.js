@@ -20,6 +20,7 @@ export const CardGroupWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 20px;
+  margin-top: 15px;
   padding: 0 10px;
 
   @media screen and (max-width: 1480px) {
@@ -41,6 +42,7 @@ export const ContentContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 30px;
+
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 

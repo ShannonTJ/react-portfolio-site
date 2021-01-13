@@ -1,7 +1,12 @@
 import React from "react";
+import AboutText from "../components/About";
 
 const About = () => {
-  return <></>;
+  return (
+    <>
+      <AboutText />
+    </>
+  );
 };
 
 export default About;

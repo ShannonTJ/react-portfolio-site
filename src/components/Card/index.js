@@ -11,7 +11,7 @@ import {
   Text,
   LinksContainer,
   Link,
-} from "./CardElement";
+} from "./CardElements";
 
 const Card = () => {
   return (
