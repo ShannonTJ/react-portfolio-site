@@ -18,16 +18,19 @@ const EmailForm = () => {
     event.preventDefault();
     console.log(name, email, message);
 
-    event.target.reset();
+    setName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
     <FormContainer>
       <FormContentContainer>
-        <InputContainer onSubmit={sendMessage}>
+        <InputContainer>
           <NameInput
             id="name"
             name="name"
+            value={name}
             placeholder="Your name"
             required
             onChange={(event) => {
@@ -38,6 +41,7 @@ const EmailForm = () => {
           <EmailInput
             id="email"
             name="email"
+            value={email}
             placeholder="Your email"
             required
             onChange={(event) => {
@@ -48,6 +52,7 @@ const EmailForm = () => {
           <MessageInput
             id="message"
             name="message"
+            value={message}
             placeholder="Your message"
             rows="10"
             columns="50"
@@ -58,7 +63,11 @@ const EmailForm = () => {
             }}
           />
         </InputContainer>
-        <SubmitButton value="send" type="submit">
+        <SubmitButton
+          value="send"
+          type="submit"
+          onClick={(event) => sendMessage(event)}
+        >
           Send
         </SubmitButton>
       </FormContentContainer>

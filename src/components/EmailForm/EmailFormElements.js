@@ -34,8 +34,9 @@ export const InputContainer = styled.form`
 `;
 
 export const NameInput = styled.input`
+  padding: 16px 0 16px 10px;
+  width: 340px;
   margin-top: 32px;
-  padding: 16px 140px 16px 10px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
@@ -45,7 +46,8 @@ export const NameInput = styled.input`
   font-weight: inherit;
 `;
 export const EmailInput = styled.input`
-  padding: 16px 140px 16px 10px;
+  padding: 16px 0 16px 10px;
+  width: 340px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
@@ -55,7 +57,8 @@ export const EmailInput = styled.input`
   font-weight: inherit;
 `;
 export const MessageInput = styled.textarea`
-  padding: 16px 120px 16px 10px;
+  padding: 16px 0 16px 10px;
+  width: 340px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
