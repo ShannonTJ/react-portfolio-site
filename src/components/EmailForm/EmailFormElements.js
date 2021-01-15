@@ -90,3 +90,8 @@ export const SubmitButton = styled.button`
     color: #5484aa;
   }
 `;
+
+export const MessageReceived = styled.p`
+  display: flex;
+  color: #fff;
+`;
