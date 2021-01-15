@@ -18,9 +18,30 @@ const EmailForm = () => {
     <FormContainer>
       <FormContentContainer>
         <InputContainer>
-          <NameInput />
-          <EmailInput />
-          <MessageInput />
+          <NameInput
+            id="name"
+            name="name"
+            onChange={(event) => {
+              event.preventDefault();
+              setName(event.target.value);
+            }}
+          />
+          <EmailInput
+            id="email"
+            name="email"
+            onChange={(event) => {
+              event.preventDefault();
+              setEmail(event.target.value);
+            }}
+          />
+          <MessageInput
+            id="message"
+            name="message"
+            onChange={(event) => {
+              event.preventDefault();
+              setMessage(event.target.value);
+            }}
+          />
         </InputContainer>
         <SubmitButton />
       </FormContentContainer>
