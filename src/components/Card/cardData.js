@@ -21,12 +21,13 @@ export const cardData = [
   },
   {
     id: 3,
-    src: "images/svg-5.svg",
+    src: "images/battleships.png",
     alt: "project image",
-    title: "React Netflix Clone",
-    description: "This is sample text.",
-    webpage: "",
-    github: "",
+    title: "Javascript Battleship",
+    description:
+      "A Battleship game made with JS, HTML, and CSS. Includes single and multiplayer modes.",
+    webpage: "https://shan-javascript-battleship.herokuapp.com/",
+    github: "https://github.com/ShannonTJ/javascript-battleship",
   },
   {
     id: 4,

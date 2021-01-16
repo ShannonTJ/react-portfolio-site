@@ -3,6 +3,10 @@ import { init } from "emailjs-com";
 import React, { useState } from "react";
 
 import {
+  MessageContainer,
+  MessageCardContainer,
+  MessageTextContainer,
+  MessageTitle,
   FormContainer,
   FormContentContainer,
   InputContainer,
@@ -24,7 +28,10 @@ const EmailForm = () => {
 
   const sendMessage = (event) => {
     event.preventDefault();
-    console.log(name, email, message);
+
+    if (name === "" || email === "" || message === "") {
+      return;
+    }
 
     const templateParams = {
       from_name: name + " " + email,
@@ -47,71 +54,78 @@ const EmailForm = () => {
   };
 
   return (
-    <FormContainer>
-      <FormContentContainer>
-        {showConfirmation && (
-          <MessageReceived>
-            Thank you! Your message has been received.
-          </MessageReceived>
-        )}
-        {!showConfirmation && (
-          <InputContainer>
-            <FormTitle>Send a message</FormTitle>
-            <LabelTextContainer>
-              <FormLabel>Name</FormLabel>
-              <NameInput
-                id="name"
-                name="name"
-                value={name}
-                placeholder="Your name"
-                required
-                onChange={(event) => {
-                  event.preventDefault();
-                  setName(event.target.value);
-                }}
-              />
-            </LabelTextContainer>
-            <LabelTextContainer>
-              <FormLabel>Email Address</FormLabel>
-              <EmailInput
-                id="email"
-                name="email"
-                value={email}
-                placeholder="Your email"
-                required
-                onChange={(event) => {
-                  event.preventDefault();
-                  setEmail(event.target.value);
-                }}
-              />
-            </LabelTextContainer>
-            <LabelTextContainer>
-              <FormLabel>Email Content</FormLabel>
-              <MessageInput
-                id="message"
-                name="message"
-                value={message}
-                placeholder="Your message"
-                rows="10"
-                columns="50"
-                required
-                onChange={(event) => {
-                  event.preventDefault();
-                  setMessage(event.target.value);
-                }}
-              />
-            </LabelTextContainer>
-            <SubmitButton
-              value="send"
-              type="submit"
-              onClick={(event) => sendMessage(event)}
-            >
-              Send
-            </SubmitButton>
-          </InputContainer>
-        )}
-      </FormContentContainer>
-    </FormContainer>
+    <>
+      {showConfirmation && (
+        <MessageContainer>
+          <MessageCardContainer>
+            <MessageTextContainer>
+              <MessageTitle>Thank you!</MessageTitle>
+              <MessageReceived>Your message has been received.</MessageReceived>
+            </MessageTextContainer>
+          </MessageCardContainer>
+        </MessageContainer>
+      )}
+      {!showConfirmation && (
+        <FormContainer>
+          <FormContentContainer>
+            <InputContainer>
+              <FormTitle>Send a message</FormTitle>
+              <LabelTextContainer>
+                <FormLabel>Name</FormLabel>
+                <NameInput
+                  id="name"
+                  name="name"
+                  value={name}
+                  placeholder="Your name"
+                  required
+                  onChange={(event) => {
+                    event.preventDefault();
+                    setName(event.target.value);
+                  }}
+                />
+              </LabelTextContainer>
+              <LabelTextContainer>
+                <FormLabel>Email Address</FormLabel>
+                <EmailInput
+                  id="email"
+                  name="email"
+                  value={email}
+                  placeholder="Your email"
+                  required
+                  onChange={(event) => {
+                    event.preventDefault();
+                    setEmail(event.target.value);
+                  }}
+                />
+              </LabelTextContainer>
+              <LabelTextContainer>
+                <FormLabel>Email Content</FormLabel>
+                <MessageInput
+                  id="message"
+                  name="message"
+                  value={message}
+                  placeholder="Your message"
+                  rows="10"
+                  columns="50"
+                  required
+                  onChange={(event) => {
+                    event.preventDefault();
+                    setMessage(event.target.value);
+                  }}
+                />
+              </LabelTextContainer>
+              <SubmitButton
+                value="send"
+                type="submit"
+                onClick={(event) => sendMessage(event)}
+              >
+                Send
+              </SubmitButton>
+            </InputContainer>
+          </FormContentContainer>
+        </FormContainer>
+      )}
+    </>
   );
 };
 

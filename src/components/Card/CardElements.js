@@ -72,7 +72,8 @@ export const TextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 320px;
+  height: 200px;
 `;
 export const HeaderText = styled.h1`
   color: #5d6d7e;
@@ -101,7 +102,6 @@ export const LinksContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 250px;
-  margin-top: 10px;
 `;
 
 export const Link = styled.a`
