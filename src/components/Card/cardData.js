@@ -12,7 +12,7 @@ export const cardData = [
   {
     id: 2,
     src: "images/responsive-site.png",
-    alt: "project image",
+    alt: "responsive site project image",
     title: "Responsive React Site",
     description:
       "A responsive site made with React Router, styled components, and smooth scroll. ",
@@ -22,7 +22,7 @@ export const cardData = [
   {
     id: 3,
     src: "images/battleships.png",
-    alt: "project image",
+    alt: "battleship project image",
     title: "Javascript Battleship",
     description:
       "A Battleship game made with JS, HTML, and CSS. Includes single and multiplayer modes.",
