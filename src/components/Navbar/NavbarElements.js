@@ -16,7 +16,7 @@ export const NavTextWrapper = styled.div`
   align-items: center;
   text-align: center;
   height: 50%;
-  width: 250px;
+  width: 350px;
   margin: auto;
 `;
 
@@ -28,6 +28,7 @@ export const NavText = styled.h1`
   text-align: center;
   padding: 50px 0 0 0;
   text-transform: uppercase;
+  font-size: 30px;
   font-weight: 400;
 `;
 

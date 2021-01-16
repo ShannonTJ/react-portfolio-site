@@ -9,7 +9,7 @@ export const FormContainer = styled.div`
   margin-bottom: 2rem;
   max-width: 100%;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 650px) {
     margin-bottom: 4rem;
   }
 `;
@@ -22,8 +22,11 @@ export const FormContentContainer = styled.div`
   background-color: #5d6d7e;
   padding: 30px;
   border-radius: 10px;
-  max-width: 400px;
   height: 700px;
+
+  @media screen and (max-width: 650px) {
+    width: 350px;
+  }
 `;
 
 export const InputContainer = styled.form`
@@ -35,8 +38,7 @@ export const InputContainer = styled.form`
 
 export const NameInput = styled.input`
   padding: 16px 0 16px 10px;
-  width: 340px;
-  margin-top: 32px;
+  width: 500px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
@@ -44,10 +46,14 @@ export const NameInput = styled.input`
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
+
+  @media screen and (max-width: 650px) {
+    width: 340px;
+  }
 `;
 export const EmailInput = styled.input`
   padding: 16px 0 16px 10px;
-  width: 340px;
+  width: 500px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
@@ -55,10 +61,14 @@ export const EmailInput = styled.input`
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
+
+  @media screen and (max-width: 650px) {
+    width: 340px;
+  }
 `;
 export const MessageInput = styled.textarea`
   padding: 16px 0 16px 10px;
-  width: 340px;
+  width: 500px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
@@ -66,6 +76,10 @@ export const MessageInput = styled.textarea`
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
+
+  @media screen and (max-width: 650px) {
+    width: 340px;
+  }
 `;
 
 export const SubmitButton = styled.button`
@@ -77,6 +91,7 @@ export const SubmitButton = styled.button`
   font-weight: 600;
   background-color: #5484aa;
   color: #fff;
+  margin-top: 10px;
 
   padding: 16px 60px;
   margin-bottom: 32px;
@@ -95,3 +110,25 @@ export const MessageReceived = styled.p`
   display: flex;
   color: #fff;
 `;
+
+export const FormLabel = styled.label`
+  display: flex;
+  align-items: left;
+  text-align: left;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+`;
+
+export const FormTitle = styled.h1`
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 16px;
+`;
+
+export const LabelTextContainer = styled.div``;
