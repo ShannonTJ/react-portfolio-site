@@ -23,11 +23,11 @@ export const CardGroupWrapper = styled.div`
 
   padding: 0 10px;
 
-  @media screen and (max-width: 1480px) {
+  @media screen and (max-width: 1350px) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media screen and (max-width: 1035px) {
+  @media screen and (max-width: 950px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -35,7 +35,7 @@ export const CardGroupWrapper = styled.div`
 export const ContentContainer = styled.div`
   background: #fff;
   width: 350px;
-  max-height: 400px;
+  height: 400px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -60,9 +60,11 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 200px;
+  width: 300px;
   height: 200px;
+  border-radius: 10px;
   margin-bottom: 10px;
+  object-fit: cover;
 `;
 
 export const TextContainer = styled.div`
@@ -98,7 +100,8 @@ export const LinksContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 200px;
+  width: 250px;
+  margin-top: 10px;
 `;
 
 export const Link = styled.a`

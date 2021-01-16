@@ -1,6 +1,7 @@
 import React from "react";
 import {
   AboutContainer,
+  AboutTextCard,
   AboutTextContainer,
   HeaderText,
   Text,
@@ -9,18 +10,16 @@ import {
 const AboutText = () => {
   return (
     <AboutContainer>
-      <AboutTextContainer>
-        <HeaderText>React | Web Developer</HeaderText>
-        <Text>
-          I'm baby vaporware tilde YOLO, roof party synth messenger bag bitters
-          chicharrones hoodie lumbersexual bespoke disrupt. Pabst plaid
-          lumbersexual hella small batch vinyl. Bushwick waistcoat forage
-          artisan, edison bulb butcher authentic cornhole man braid vinyl
-          taxidermy biodiesel. Distillery salvia lo-fi paleo. Readymade enamel
-          pin adaptogen woke flannel shoreditch before they sold out. Next level
-          shabby chic wayfarers church-key cardigan kickstarter.
-        </Text>
-      </AboutTextContainer>
+      <AboutTextCard>
+        <AboutTextContainer>
+          <HeaderText>React | Web Developer</HeaderText>
+          <Text>
+            I am a bilingual (English + French) University of Calgary graduate
+            with a BSc in Computer Science. When I'm not programming, I'm making
+            art!
+          </Text>
+        </AboutTextContainer>
+      </AboutTextCard>
     </AboutContainer>
   );
 };

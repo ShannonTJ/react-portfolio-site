@@ -7,33 +7,52 @@ export const AboutContainer = styled.div`
   align-items: center;
   margin-top: 8rem;
   margin-bottom: 2rem;
+  width: 100%;
+
+  @media screen and (max-width: 650px) {
+    margin-bottom: 4rem;
+  }
+`;
+
+export const AboutTextCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d6d7e;
+
+  border-radius: 10px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-width: 650px) {
+    width: 350px;
 `;
 
 export const AboutTextContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  padding: 0 35rem;
-  margin-top: 0px;
+  width: 570px;
+  margin: 30px 0;
 `;
 
 export const HeaderText = styled.h1`
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #5d6d7e;
+
+  color: #fff;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 25px;
   font-weight: 400;
-  width: 100%;
+  margin-top: 0;
+  margin-bottom: 32px;
 `;
 
 export const Text = styled.p`
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #5d6d7e;
-
+  color: #fff;
   font-weight: 400;
-  width: 100%;
+  margin: 0 30px;
 `;
