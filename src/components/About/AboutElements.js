@@ -29,7 +29,7 @@ export const AboutTextCard = styled.div`
 `;
 
 export const AboutTextContainer = styled.div`
-  width: 570px;
+  width: 580px;
   margin: 30px 0;
 
   @media screen and (max-width: 650px) {

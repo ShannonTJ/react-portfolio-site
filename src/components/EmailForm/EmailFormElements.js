@@ -75,7 +75,7 @@ export const InputContainer = styled.form`
 `;
 
 export const NameInput = styled.input`
-  padding: 16px 0 16px 10px;
+  padding: 16px 10px 16px 10px;
   width: 500px;
   margin-bottom: 32px;
   border: none;
@@ -90,7 +90,7 @@ export const NameInput = styled.input`
   }
 `;
 export const EmailInput = styled.input`
-  padding: 16px 0 16px 10px;
+  padding: 16px 10px 16px 10px;
   width: 500px;
   margin-bottom: 32px;
   border: none;
@@ -105,7 +105,7 @@ export const EmailInput = styled.input`
   }
 `;
 export const MessageInput = styled.textarea`
-  padding: 16px 0 16px 10px;
+  padding: 16px 10px 16px 10px;
   width: 500px;
   margin-bottom: 32px;
   border: none;
@@ -114,6 +114,8 @@ export const MessageInput = styled.textarea`
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
+
+  resize: none;
 
   @media screen and (max-width: 650px) {
     width: 340px;
