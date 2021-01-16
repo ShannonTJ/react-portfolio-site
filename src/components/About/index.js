@@ -14,7 +14,7 @@ const AboutText = () => {
         <AboutTextContainer>
           <HeaderText>React | Web Developer</HeaderText>
           <Text>
-            I am a bilingual (English + French) University of Calgary graduate
+            I'm a bilingual (English + French) University of Calgary graduate
             with a BSc in Computer Science. When I'm not programming, I'm making
             art!
           </Text>

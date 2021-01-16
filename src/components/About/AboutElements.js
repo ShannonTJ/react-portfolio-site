@@ -25,12 +25,16 @@ export const AboutTextCard = styled.div`
    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
   @media screen and (max-width: 650px) {
-    width: 350px;
+    width: 410px;
 `;
 
 export const AboutTextContainer = styled.div`
   width: 570px;
   margin: 30px 0;
+
+  @media screen and (max-width: 650px) {
+    width: 350px;
+  }
 `;
 
 export const HeaderText = styled.h1`
