@@ -33,7 +33,7 @@ export const CardGroupWrapper = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-  background: #fff;
+  background: #5d6d7e;
   width: 350px;
   height: 400px;
   border-radius: 10px;
@@ -76,7 +76,7 @@ export const TextContainer = styled.div`
   height: 200px;
 `;
 export const HeaderText = styled.h1`
-  color: #5d6d7e;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +88,7 @@ export const HeaderText = styled.h1`
 `;
 
 export const Text = styled.p`
-  color: #5d6d7e;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,5 +110,5 @@ export const Link = styled.a`
   justify-content: space-between;
   text-decoration: underline;
   cursor: pointer;
-  color: #5484aa;
+  color: #fff;
 `;
