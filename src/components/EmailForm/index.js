@@ -1,4 +1,7 @@
+import emailjs from "emailjs-com";
+import { init } from "emailjs-com";
 import React, { useState } from "react";
+
 import {
   FormContainer,
   FormContentContainer,
@@ -20,10 +23,24 @@ const EmailForm = () => {
     event.preventDefault();
     console.log(name, email, message);
 
-    setName("");
-    setEmail("");
-    setMessage("");
-    setShowConfirmation(true);
+    const templateParams = {
+      from_name: name + " " + email,
+      to_name: "Shannon",
+      message: message,
+    };
+
+    emailjs.send("service_xvwplsp", "template_pc94hop", templateParams).then(
+      function (response) {
+        setName("");
+        setEmail("");
+        setMessage("");
+        setShowConfirmation(true);
+        console.log("SUCCESS", response.status, response.text);
+      },
+      function (error) {
+        console.log("FAILED", error);
+      }
+    );
   };
 
   return (

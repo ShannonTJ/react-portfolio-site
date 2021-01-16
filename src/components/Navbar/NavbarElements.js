@@ -26,7 +26,7 @@ export const NavText = styled.h1`
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 15px 0 0 0;
+  padding: 50px 0 0 0;
   text-transform: uppercase;
   font-weight: 400;
 `;
@@ -40,6 +40,7 @@ export const NavLinksWrapper = styled.div`
   width: 300px;
   height: 60%;
   margin: auto;
+  margin-top: 15px;
 `;
 
 export const StyledNavLink = styled(NavLink)`

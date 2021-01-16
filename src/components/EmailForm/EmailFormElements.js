@@ -22,8 +22,8 @@ export const FormContentContainer = styled.div`
   background-color: #5d6d7e;
   padding: 30px;
   border-radius: 10px;
-  width: 400px;
-  height: 100%;
+  max-width: 400px;
+  height: 700px;
 `;
 
 export const InputContainer = styled.form`
