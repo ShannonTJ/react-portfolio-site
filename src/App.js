@@ -11,21 +11,27 @@ import Code from "./pages/Code";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
         <Route exact path="/">
-          <Redirect to="/code" component={Code} />
+          <Redirect to="/code">
+            <Code />
+          </Redirect>
         </Route>
-        <Route path="/code" component={Code} exact />
-        <Route path="/about" component={About} exact />
-        <Route path="/contact" component={Contact} exact />
+        <Route path="/code" exact>
+          <Code />
+        </Route>
+        <Route path="/about" exact>
+          <About />
+        </Route>
+        <Route path="/contact" exact>
+          <Contact />
+        </Route>
       </Switch>
       <Footer />
     </Router>
   );
 }
-
-export default App;
