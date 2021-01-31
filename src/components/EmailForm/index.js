@@ -33,6 +33,8 @@ const EmailForm = () => {
       return;
     }
 
+    init("user_c1JPLvZvjVoZPpuAZzygF");
+
     const templateParams = {
       from_name: name + " " + email,
       to_name: "Shannon",
