@@ -1,6 +1,16 @@
 export const cardData = [
   {
     id: 1,
+    src: "images/ecommerce-site.png",
+    alt: "project image",
+    title: "React Ecommerce Site",
+    description:
+      "A MERN stack project with sign in, order history, and sandbox Paypal functionality.",
+    webpage: "https://shan-react-ecommerce-site.herokuapp.com/",
+    github: "https://github.com/ShannonTJ/react-ecommerce-site",
+  },
+  {
+    id: 2,
     src: "images/netflix.jpg",
     alt: "netflix project image",
     title: "React Netflix Clone",
@@ -10,24 +20,14 @@ export const cardData = [
     github: "https://github.com/ShannonTJ/react-netflix-clone",
   },
   {
-    id: 2,
-    src: "images/responsive-site.png",
-    alt: "responsive site project image",
-    title: "Responsive React Site",
-    description:
-      "A responsive site made with React Router, styled components, and smooth scroll. ",
-    webpage: "https://shan-react-responsive-site2.netlify.app/",
-    github: "https://github.com/ShannonTJ/react-responsive-site2",
-  },
-  {
     id: 3,
-    src: "images/ecommerce-site.png",
-    alt: "project image",
-    title: "React Ecommerce Site",
+    src: "images/social-media-site.png",
+    alt: "react django project image",
+    title: "React/Django Twitter",
     description:
-      "A MERN stack project with sign in, order history, and sandbox Paypal functionality.",
-    webpage: "https://shan-react-ecommerce-site.herokuapp.com/",
-    github: "https://github.com/ShannonTJ/react-ecommerce-site",
+      "A Twitter-like social media site made with React, Django, and Python. ",
+    webpage: "https://shan-django-react-social-media.herokuapp.com/",
+    github: "https://github.com/ShannonTJ/django-react-social-media",
   },
   {
     id: 4,
@@ -50,11 +50,12 @@ export const cardData = [
   },
   {
     id: 6,
-    src: "images/svg-5.svg",
-    alt: "project image",
-    title: "React Netflix Clone",
-    description: "This is sample text.",
-    webpage: "",
-    github: "",
+    src: "images/responsive-site.png",
+    alt: "responsive site project image",
+    title: "Responsive React Site",
+    description:
+      "A responsive site made with React Router, styled components, and smooth scroll. ",
+    webpage: "https://shan-react-responsive-site2.netlify.app/",
+    github: "https://github.com/ShannonTJ/react-responsive-site2",
   },
 ];
