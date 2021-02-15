@@ -31,12 +31,13 @@ export const cardData = [
   },
   {
     id: 4,
-    src: "images/svg-5.svg",
-    alt: "project image",
-    title: "React Netflix Clone",
-    description: "This is sample text.",
-    webpage: "",
-    github: "",
+    src: "images/gatsby.jpg",
+    alt: "gatsby/react project image",
+    title: "React/Gatsby Site",
+    description:
+      "A responsive site made with React, Gatsby, styled components, and GraphQL.",
+    webpage: "https://shan-react-gatsby-site.netlify.app/",
+    github: "https://github.com/ShannonTJ/react-gatsby-site",
   },
   {
     id: 5,
@@ -54,7 +55,7 @@ export const cardData = [
     alt: "responsive site project image",
     title: "Responsive React Site",
     description:
-      "A responsive site made with React Router, styled components, and smooth scroll. ",
+      "A responsive site made with React Router, styled components, and smooth scroll.",
     webpage: "https://shan-react-responsive-site2.netlify.app/",
     github: "https://github.com/ShannonTJ/react-responsive-site2",
   },
