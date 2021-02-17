@@ -27,8 +27,12 @@ const Card = () => {
               <Text>{item.description}</Text>
             </TextContainer>
             <LinksContainer>
-              <Link href={item.webpage}>Webpage</Link>
-              <Link href={item.github}>Github</Link>
+              <Link target="_blank" href={item.webpage}>
+                Webpage
+              </Link>
+              <Link target="_blank" href={item.github}>
+                Github
+              </Link>
             </LinksContainer>
           </ContentContainer>
         ))}
