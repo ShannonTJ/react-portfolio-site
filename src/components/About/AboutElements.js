@@ -58,7 +58,7 @@ export const Text = styled.p`
   text-align: center;
   color: #fff;
   font-weight: 400;
-  margin: 0 30px;
+  margin: 0 40px;
 `;
 
 export const TextList = styled.ul`
@@ -77,3 +77,7 @@ export const TextList = styled.ul`
 `;
 
 export const TextListItem = styled.li``;
+
+export const Space = styled.br`
+  margin-top: 5px;
+`;
