@@ -60,3 +60,14 @@ export const Text = styled.p`
   font-weight: 400;
   margin: 0 30px;
 `;
+
+export const TextList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 400;
+  margin: 0 30px;
+  list-style: circle outside;
+`;
+
+export const TextListItem = styled.li``;
