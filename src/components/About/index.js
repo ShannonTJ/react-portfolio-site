@@ -22,7 +22,7 @@ const AboutText = () => {
           <Text />
           <Text>
             <p>
-              I have experience with the following frameworks and languages:
+              Below are the frameworks and languages I have experience with:
             </p>
           </Text>
 
@@ -32,6 +32,12 @@ const AboutText = () => {
             <TextListItem>Express</TextListItem>
             <TextListItem>Node.js</TextListItem>
             <TextListItem>npm</TextListItem>
+            <TextListItem>Python</TextListItem>
+            <TextListItem>Python</TextListItem>
+            <TextListItem>Python</TextListItem>
+            <TextListItem>Python</TextListItem>
+            <TextListItem>Python</TextListItem>
+            <TextListItem>Python</TextListItem>
             <TextListItem>Python</TextListItem>
           </TextList>
         </AboutTextContainer>

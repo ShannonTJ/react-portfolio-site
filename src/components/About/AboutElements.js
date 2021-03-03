@@ -62,12 +62,18 @@ export const Text = styled.p`
 `;
 
 export const TextList = styled.ul`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   color: #fff;
   font-weight: 400;
-  margin: 0 30px;
-  list-style: circle outside;
+  margin: 0 0 0 60px;
+  grid-column-gap: 20px;
+  list-style: disc outside;
+
+  @media screen and (max-width: 650px) {
+    margin: auto;
+    grid-column-gap: 30px;
+  }
 `;
 
 export const TextListItem = styled.li``;
