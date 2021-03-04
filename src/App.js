@@ -31,11 +31,7 @@ export default function App() {
         <Route path="/contact" exact>
           <Contact />
         </Route>
-        <Route path="/404">
-          <Redirect from="*" to="/404">
-            <NotFound />
-          </Redirect>
-        </Route>
+        <Route component={NotFound} />
       </Switch>
       <Footer />
     </Router>

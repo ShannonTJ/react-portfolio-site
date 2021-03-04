@@ -1,8 +1,8 @@
 import React from "react";
 import {
-  AboutContainer,
-  AboutTextCard,
-  AboutTextContainer,
+  Container,
+  TextCard,
+  TextContainer,
   HeaderText,
   Text,
   TextList,
@@ -12,9 +12,9 @@ import {
 
 const AboutText = () => {
   return (
-    <AboutContainer>
-      <AboutTextCard>
-        <AboutTextContainer>
+    <Container>
+      <TextCard>
+        <TextContainer>
           <HeaderText>React / Web Developer</HeaderText>
           <Text>
             I'm a bilingual (English and French) university graduate with a BSc
@@ -40,9 +40,9 @@ const AboutText = () => {
           </TextList>
           <Space />
           <Text>More information can be found in my resume.</Text>
-        </AboutTextContainer>
-      </AboutTextCard>
-    </AboutContainer>
+        </TextContainer>
+      </TextCard>
+    </Container>
   );
 };
 

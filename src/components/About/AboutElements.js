@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 
-export const AboutContainer = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@ export const AboutContainer = styled.div`
   }
 `;
 
-export const AboutTextCard = styled.div`
+export const TextCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@ export const AboutTextCard = styled.div`
     width: 410px;
 `;
 
-export const AboutTextContainer = styled.div`
+export const TextContainer = styled.div`
   width: 580px;
   margin: 30px 0;
 
@@ -80,4 +80,11 @@ export const TextListItem = styled.li``;
 
 export const Space = styled.br`
   margin-top: 5px;
+`;
+
+export const Image = styled.img`
+  display: flex;
+  width: 350px;
+  border-radius: 100%;
+  margin-bottom: 2rem;
 `;
