@@ -20,6 +20,15 @@ const Navbar = () => {
         <StyledNavLink exact to="about" activeClassName="active">
           About
         </StyledNavLink>
+        <StyledNavLink
+          exact
+          to="/files/Resume_Shannon_Jones_Web_Dev.pdf"
+          target="_blank"
+          download
+          activeClassName="active"
+        >
+          Resume
+        </StyledNavLink>
         <StyledNavLink exact to="contact" activeClassName="active">
           Contact
         </StyledNavLink>

@@ -71,7 +71,7 @@ const EmailForm = () => {
         <FormContainer>
           <FormContentContainer>
             <InputContainer>
-              <FormTitle>Send a message</FormTitle>
+              <FormTitle>Get in touch</FormTitle>
               <LabelTextContainer>
                 <FormLabel>Name</FormLabel>
                 <NameInput

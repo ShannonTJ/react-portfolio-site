@@ -38,7 +38,7 @@ export const NavLinksWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  width: 300px;
+  width: 400px;
   height: 60%;
   margin: auto;
   margin-top: 15px;

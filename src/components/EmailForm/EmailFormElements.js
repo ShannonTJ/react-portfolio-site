@@ -133,6 +133,7 @@ export const SubmitButton = styled.button`
   color: #fff;
   margin-top: 10px;
 
+  letter-spacing: 2px;
   padding: 16px 60px;
   margin-bottom: 30px;
   border: none;

@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Code from "./pages/Code";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -29,6 +30,11 @@ export default function App() {
         </Route>
         <Route path="/contact" exact>
           <Contact />
+        </Route>
+        <Route path="/404">
+          <Redirect from="*" to="/404">
+            <NotFound />
+          </Redirect>
         </Route>
       </Switch>
       <Footer />

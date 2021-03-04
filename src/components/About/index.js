@@ -17,14 +17,12 @@ const AboutText = () => {
         <AboutTextContainer>
           <HeaderText>React / Web Developer</HeaderText>
           <Text>
-            I'm a bilingual (fluent in English + French) University of Calgary
-            graduate with a BSc in Computer Science. Nice to meet you!
+            I'm a bilingual (English and French) university graduate with a BSc
+            in Computer Science. Nice to meet you!
           </Text>
           <Text />
           <Space />
-          <Text>
-            Some of the languages and technologies I have experience with are:
-          </Text>
+          <Text>Below are some of the languages I've used in my projects:</Text>
           <Space />
           <TextList>
             <TextListItem>React</TextListItem>
