@@ -26,6 +26,11 @@ export const TextCard = styled.div`
 
   @media screen and (max-width: 650px) {
     width: 410px;
+
+  @media screen and (max-width: 480px) {
+    width: 330px;
+    
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -34,6 +39,10 @@ export const TextContainer = styled.div`
 
   @media screen and (max-width: 650px) {
     width: 350px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 290px;
   }
 `;
 
@@ -73,6 +82,12 @@ export const TextList = styled.ul`
   @media screen and (max-width: 650px) {
     margin: auto;
     grid-column-gap: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 60px;
   }
 `;
 
