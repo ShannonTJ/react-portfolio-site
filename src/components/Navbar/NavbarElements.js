@@ -42,6 +42,10 @@ export const NavLinksWrapper = styled.div`
   height: 60%;
   margin: auto;
   margin-top: 15px;
+
+  @media screen and (max-width: 480px) {
+    width: 290px;
+  }
 `;
 
 export const StyledNavLink = styled(NavLink)`
@@ -62,5 +66,9 @@ export const StyledNavLink = styled(NavLink)`
 
   &:hover {
     color: #5484aa;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
   }
 `;
