@@ -57,11 +57,12 @@ export const ImageContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 250px;
+  height: 350px;
 `;
 
 export const Image = styled.img`
-  width: 300px;
-  height: 200px;
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
   object-fit: cover;

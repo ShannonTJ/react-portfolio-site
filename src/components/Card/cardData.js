@@ -1,7 +1,7 @@
 export const cardData = [
   {
     id: 1,
-    src: "images/ecommerce-site.png",
+    src: "images/cart.svg",
     alt: "project image",
     title: "React Ecommerce Site",
     description:
@@ -11,7 +11,7 @@ export const cardData = [
   },
   {
     id: 2,
-    src: "images/netflix.jpg",
+    src: "images/video.svg",
     alt: "netflix project image",
     title: "React Netflix Clone",
     description:
@@ -21,7 +21,7 @@ export const cardData = [
   },
   {
     id: 3,
-    src: "images/social-media-site.png",
+    src: "images/tweet.svg",
     alt: "react django project image",
     title: "React/Django Twitter",
     description:
@@ -31,7 +31,7 @@ export const cardData = [
   },
   {
     id: 4,
-    src: "images/gatsby.jpg",
+    src: "images/react.svg",
     alt: "gatsby/react project image",
     title: "React/Gatsby Site",
     description:
@@ -41,7 +41,7 @@ export const cardData = [
   },
   {
     id: 5,
-    src: "images/battleships.png",
+    src: "images/game.svg",
     alt: "battleship project image",
     title: "Javascript Battleship",
     description:
@@ -51,7 +51,7 @@ export const cardData = [
   },
   {
     id: 6,
-    src: "images/responsive-site.png",
+    src: "images/webdev.svg",
     alt: "responsive site project image",
     title: "Responsive React Site",
     description:
