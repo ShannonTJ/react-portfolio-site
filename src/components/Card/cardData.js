@@ -53,10 +53,10 @@ export const cardData = [
     id: 6,
     src: "images/webdev.svg",
     alt: "responsive site project image",
-    title: "Responsive React Site",
+    title: "Ruby on Rails App",
     description:
-      "A responsive site made with React Router, styled components, and smooth scroll.",
-    webpage: "https://shan-react-responsive-site2.netlify.app/",
-    github: "https://github.com/ShannonTJ/react-responsive-site2",
+      "An app to organize friends' contact information. Has user profile functionality.",
+    webpage: "https://shan-rails-app.herokuapp.com/",
+    github: "https://github.com/ShannonTJ/ruby-app",
   },
 ];

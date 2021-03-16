@@ -35,7 +35,7 @@ export const CardGroupWrapper = styled.div`
 export const ContentContainer = styled.div`
   background: #5d6d7e;
   width: 350px;
-  height: 400px;
+  height: 450px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -53,19 +53,13 @@ export const ContentContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 250px;
-  height: 350px;
+  height: 250px;
 `;
 
 export const Image = styled.img`
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  object-fit: cover;
+  width: 250px;
+  height: 250px;
 `;
 
 export const TextContainer = styled.div`
@@ -74,7 +68,7 @@ export const TextContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 320px;
-  height: 200px;
+  height: 300px;
 `;
 export const HeaderText = styled.h1`
   color: #fff;
@@ -105,11 +99,27 @@ export const LinksContainer = styled.div`
   width: 250px;
 `;
 
-export const Link = styled.a`
+export const Link = styled.button`
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  text-decoration: underline;
-  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #5484aa;
   color: #fff;
+  margin-top: 10px;
+
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background-color: #fff;
+    color: #5484aa;
+  }
 `;
