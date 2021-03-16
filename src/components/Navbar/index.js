@@ -22,7 +22,7 @@ const Navbar = () => {
         </StyledNavLink>
         <StyledNavLink
           exact
-          to="/files/Resume_Shannon_Jones_Web_Dev.pdf"
+          to="/files/shannonJonesResume.pdf"
           target="_blank"
           download
           activeClassName="active"
