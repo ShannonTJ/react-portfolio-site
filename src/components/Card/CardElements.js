@@ -51,6 +51,11 @@ export const ContentContainer = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 330px;
+    padding: 2rem 0;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -69,8 +74,13 @@ export const TextContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 320px;
-  height: 300px;
+  height: 400px;
+
+  @media screen and (max-width: 480px) {
+    width: 280px;
+  }
 `;
+
 export const HeaderText = styled.h1`
   color: #fff;
   display: flex;
