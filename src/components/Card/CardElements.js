@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import { Link } from "react-router-dom";
 
 export const CardContainer = styled.div`
   display: flex;
@@ -57,7 +58,7 @@ export const ImageContainer = styled.div`
   height: 250px;
 `;
 
-export const Image = styled.img`
+export const SvgImage = styled.img`
   width: 250px;
   height: 250px;
 `;
@@ -99,7 +100,7 @@ export const LinksContainer = styled.div`
   width: 250px;
 `;
 
-export const Link = styled.button`
+export const ButtonLink = styled(Link)`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,6 +111,7 @@ export const Link = styled.button`
   color: #fff;
   margin-top: 10px;
 
+  text-decoration: none;
   letter-spacing: 2px;
   padding: 10px 10px;
   margin-bottom: 10px;

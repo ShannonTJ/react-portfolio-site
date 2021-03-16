@@ -5,12 +5,12 @@ import {
   CardGroupWrapper,
   ContentContainer,
   ImageContainer,
-  Image,
+  SvgImage,
   TextContainer,
   HeaderText,
   Text,
   LinksContainer,
-  Link,
+  ButtonLink,
 } from "./CardElements";
 
 const Card = () => {
@@ -20,19 +20,19 @@ const Card = () => {
         {cardData.map((item) => (
           <ContentContainer key={item.id}>
             <ImageContainer>
-              <Image src={item.src} alt={item.alt} />
+              <SvgImage src={item.src} alt={item.alt} />
             </ImageContainer>
             <TextContainer>
               <HeaderText>{item.title}</HeaderText>
               <Text>{item.description}</Text>
             </TextContainer>
             <LinksContainer>
-              <Link target="_blank" href={item.webpage}>
+              <ButtonLink target="_blank" to={{ pathname: item.webpage }}>
                 Webpage
-              </Link>
-              <Link target="_blank" href={item.github}>
+              </ButtonLink>
+              <ButtonLink target="_blank" to={{ pathname: item.github }}>
                 Github
-              </Link>
+              </ButtonLink>
             </LinksContainer>
           </ContentContainer>
         ))}
