@@ -16,6 +16,7 @@ const NotFound = () => {
           <TextContainer>
             <HeaderText>404 not found</HeaderText>
             <Text>That page doesn't seem to exist.</Text>
+            <p></p>
             <Text>Rediscover civilization with the links above.</Text>
           </TextContainer>
           <Image src="images/cute-cat.jpg" />

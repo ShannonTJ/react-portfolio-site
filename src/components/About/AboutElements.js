@@ -101,4 +101,8 @@ export const Image = styled.img`
   width: 350px;
   border-radius: 100%;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 480px) {
+    width: 250px;
+  }
 `;
