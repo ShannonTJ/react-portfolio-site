@@ -29,7 +29,6 @@ export const TextCard = styled.div`
 
   @media screen and (max-width: 480px) {
     width: 330px;
-    
   }
 `;
 

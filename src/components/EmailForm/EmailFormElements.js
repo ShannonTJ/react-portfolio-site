@@ -49,6 +49,7 @@ export const MessageCardContainer = styled.div`
 
   @media screen and (max-width: 650px) {
     width: 410px;
+
 `;
 
 export const FormContentContainer = styled.div`
@@ -64,6 +65,11 @@ export const FormContentContainer = styled.div`
 
   @media screen and (max-width: 650px) {
     width: 350px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 330px;
+    padding: 1rem 0;
   }
 `;
 
@@ -88,6 +94,10 @@ export const NameInput = styled.input`
   @media screen and (max-width: 650px) {
     width: 340px;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 250px;
+  }
 `;
 export const EmailInput = styled.input`
   padding: 16px 10px 16px 10px;
@@ -102,6 +112,10 @@ export const EmailInput = styled.input`
 
   @media screen and (max-width: 650px) {
     width: 340px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 250px;
   }
 `;
 export const MessageInput = styled.textarea`
@@ -119,6 +133,10 @@ export const MessageInput = styled.textarea`
 
   @media screen and (max-width: 650px) {
     width: 340px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 250px;
   }
 `;
 
@@ -189,7 +207,8 @@ export const FormTitle = styled.h1`
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 400;
-  margin-bottom: 16px;
+  padding-top: 6px;
+  margin-bottom: 10px;
 `;
 
 export const LabelTextContainer = styled.div``;
